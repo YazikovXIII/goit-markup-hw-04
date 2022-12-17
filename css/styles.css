@@ -315,7 +315,38 @@ header .container {
 	text-align: center;
 }
 
+/* Customers */
+.customers {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+.customers-title {
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.1;
+	margin-bottom: 72px;
+}
+.customers-list {
+	display: flex;
+	justify-content: space-between;
+}
+.customers-item {
+	width: 168px;
+	height: 88px;
+	outline: 1px solid red;
+}
+
 /* footer */
+.footer-info {
+	display: flex;
+}
+.footer-content {
+	padding: 0;
+	margin-right: 120px;
+}
 
 .logo-footer {
 	font-size: 18px;
@@ -324,17 +355,67 @@ header .container {
 	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	margin-top: 0;
 }
 .logo-link-footer {
 	padding-top: 100px;
-
 	padding-bottom: 100px;
 }
 
-.logo-footer {
-	margin-top: 0;
+.footer-sm-list {
+	display: flex;
+	margin-top: 16px;
 }
 
+.footer-sm-item {
+	margin-right: 16px;
+}
+.footer-sm-item:last-child {
+	margin-right: 0;
+}
+.footer-sm-link {
+	display: block;
+	padding: 8px;
+	background-color: var(--slate);
+	border-radius: 50%;
+	height: 40px;
+}
+.footer-sm-link:hover {
+	background-color: var(--green);
+}
+
+/* .icon-instagram {
+	background-image:url(../img/instagram.png);
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+}
+.icon-tweeter {
+		background-image:url(../img/twitter.png);
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+}
+.icon-fb {
+	background-image:url(../img/facebook.png);
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+}
+.icon-in {
+	background-image:url(../img/linkedin.png);
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+} */
 /* portfolio */
 
 .top-line-portfolio {
