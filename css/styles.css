@@ -157,6 +157,17 @@ header .container {
 	padding-top: 192px;
 	padding-bottom: 192px;
 }
+.overlay {
+	width: 1440px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+		url(../img/people-office.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .studio-hero-header {
 	color: var(--blank);
 	font-family: "Roboto", sans-serif;
@@ -210,8 +221,31 @@ header .container {
 .feature-list {
 	display: flex;
 }
-.list-item:not(:last-child) {
+.feature-list-item:not(:last-child) {
 	margin-right: 24px;
+}
+.feature-list-item::before {
+	display: block;
+	content: "";
+	height: 112px;
+	background-color: var(--cloud);
+	margin-bottom: 8px;
+	border-radius: 4px;
+	background-size: 64px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.icon-antenna::before {
+	background-image: url(../img/antenna.png);
+}
+.icon-clock::before {
+	background-image: url(../img/clock.png);
+}
+.icon-diagram::before {
+	background-image: url(../img/diagram.png);
+}
+.icon-astronaut::before {
+	background-image: url(../img/astronaut.png);
 }
 .list-text {
 	font-size: 16px;
