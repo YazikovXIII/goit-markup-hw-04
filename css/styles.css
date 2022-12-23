@@ -574,6 +574,10 @@ header .container {
 	margin-right: 24px;
 }
 
+.portfolio-button {
+	border: none;
+}
+
 /* .nav-button-all,
 .nav-button-web,
 .nav-button-app,
@@ -587,7 +591,7 @@ header .container {
 .nav-button-marketing {
 	color: var(--order-button-normal);
 	background-color: var(--cloud);
-	border: 1px solid #e7e9fc;
+	
 	border-radius: 4px;
 	font-family: "Roboto", sans-serif;
 	font-weight: 500;
